@@ -30,6 +30,13 @@ qui ne veulent plus rater un appel. Installation en quelques jours, sans compét
 votre côté. Démo gratuite de 15 minutes sur simple demande.
 ```
 
+## Moyens de paiement à cocher
+
+- Orange Money
+- Moov Money
+- Virement bancaire
+- Espèces
+
 ## Services à lister
 
 - Installation d'agent IA de prise de rendez-vous
