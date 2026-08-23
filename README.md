@@ -32,6 +32,11 @@ Le dossier est déjà un dépôt git avec un premier commit prêt. Deux options,
 
 Suffisant pour commencer à démarcher dès aujourd'hui.
 
+**Décision actuelle (2026-08-23)** : démarrage avec le sous-domaine gratuit Netlify (`*.netlify.app`).
+Le domaine `repondo.com`/`repondo.fr` a été identifié et vérifié disponible, mais l'achat est volontairement
+repoussé à plus tard, une fois l'activité prend de l'ampleur (premiers clients signés). Ne pas acheter le
+domaine avant que ce soit décidé explicitement.
+
 ### Option B — GitHub + déploiement continu (plus durable, se met à jour tout seul)
 
 1. Créer un dépôt sur https://github.com/new (toi-même, avec ton compte)
