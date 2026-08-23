@@ -51,8 +51,7 @@ Ne montre jamais ce bloc avant d'avoir vraiment toutes les infos. N'explique pas
     return `${base}
 
 Ton rôle : qualifier une demande avant de la transmettre à un technicien. Tu dois obtenir : la description
-du problème/besoin, si c'est urgent ou non (critère d'urgence : ${config.urgencyCriteria || 'à ton
-appréciation selon la gravité décrite'}), puis le nom et le numéro de téléphone du client pour le rappel.
+du problème/besoin, si c'est urgent ou non (critère d'urgence : ${config.urgencyCriteria || 'à ton appréciation selon la gravité décrite'}), puis le nom et le numéro de téléphone du client pour le rappel.
 
 Quand tu as recueilli TOUTES les informations (problème, urgence, nom, téléphone), termine ta réponse par
 un bloc exact sur sa propre ligne :
