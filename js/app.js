@@ -120,16 +120,16 @@
         'En production : connecté au système de réservation du restaurant et à WhatsApp'
       ]
     },
-    artisan: {
-      label: 'Artisan',
-      bizName: 'Plomberie Rapide',
-      greeting: "Bonjour, Plomberie Rapide à votre écoute. Décrivez-moi le problème rencontré, je vous mets en relation avec un technicien.",
+    auto: {
+      label: 'Entretien / réparation auto',
+      bizName: 'Garage Bamako Auto',
+      greeting: "Bonjour, Garage Bamako Auto à votre écoute. Décrivez-moi le problème ou l'entretien souhaité pour votre véhicule, je vous mets en relation avec un technicien.",
       type: 'quote-callback',
       notes: [
-        'Qualifie la demande (type de panne, urgence) avant de déranger un technicien',
-        'Priorise automatiquement les urgences pour un rappel plus rapide',
+        'Qualifie la demande (type de panne ou d\'entretien, urgence) avant de déranger un technicien',
+        'Priorise automatiquement les urgences (panne immobilisante) pour un rappel plus rapide',
         'Récupère nom et téléphone pour le rappel',
-        'En production : connecté à l\'agenda des techniciens et au SMS de confirmation'
+        'En production : connecté à l\'agenda du garage et au SMS de confirmation'
       ]
     }
   };
@@ -277,7 +277,7 @@
     if (state.step === 'greet') {
       state.problem = raw.trim();
       state.step = 'urgency';
-      await botReply("Je note. C'est urgent (fuite active, panne totale...) ou ça peut attendre quelques jours ?");
+      await botReply("Je note. C'est urgent (véhicule immobilisé, panne totale...) ou ça peut attendre quelques jours ?");
     } else if (state.step === 'urgency') {
       const urgency = detectUrgency(raw) || (raw.toLowerCase().includes('non') ? 'non urgente' : 'non urgente');
       state.urgency = urgency;

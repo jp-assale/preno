@@ -15,8 +15,8 @@ euros car les outils/API sont facturés à l'international, mais l'offre commerc
 
 - `index.html` / `css/styles.css` / `js/app.js` — page de présentation commerciale avec une démo
   fonctionnelle **multi-secteurs** : un sélecteur permet de basculer entre 4 agents (salon de coiffure,
-  cabinet médical, restaurant, artisan/plombier), chacun avec son propre script adapté au métier
-  (prise de RDV sur créneau pour salon/cabinet/restaurant, qualification + rappel pour l'artisan).
+  cabinet médical, restaurant, entretien/réparation auto), chacun avec son propre script adapté au métier
+  (prise de RDV sur créneau pour salon/cabinet/restaurant, qualification + rappel pour le garage auto).
   Même moteur JS derrière les 4 — un seul fichier (`js/app.js`), une config par métier (objet `NICHES`).
   La démo tourne en pur JS local (aucune clé API nécessaire). C'est l'outil à montrer à un prospect en 2 minutes,
   en sélectionnant l'onglet correspondant à son métier.
