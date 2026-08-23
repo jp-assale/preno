@@ -37,16 +37,11 @@ Le dossier est aussi un dépôt git avec un historique de commits. Pour mettre �
 une modification locale : refaire un glisser-déposer du dossier entier sur https://app.netlify.com/drop
 en étant connecté au même compte Netlify (le nom de site `preno` sera proposé à nouveau automatiquement).
 
-### Passer en déploiement continu plus tard (optionnel, plus confortable)
+### Déploiement continu — en place depuis le 2026-08-23
 
-1. Créer un dépôt sur https://github.com/new (toi-même, avec ton compte)
-2. Dans ce dossier, lier et pousser le dépôt local :
-   ```bash
-   git remote add origin <URL_DE_TON_DEPOT_GITHUB>
-   git branch -M main
-   git push -u origin main
-   ```
-3. Dans les paramètres du site `preno` sur Netlify, choisir "Link repository" / connecter ce dépôt GitHub.
+Le dépôt local est connecté à **https://github.com/jp-assale/preno** et ce dépôt est lié au site Netlify
+`preno`. Chaque `git push` sur `main` republie automatiquement `preno.netlify.app` en 1-2 minutes — plus
+besoin de glisser-déposer manuellement.
    Aucune configuration de build nécessaire (site 100% statique, déjà pris en charge par `netlify.toml`).
 4. Chaque futur `git push` republie le site automatiquement — plus besoin de glisser-déposer à la main.
 5. Le jour où le domaine `preno.com`/`preno.fr` est acheté, il se branche en 2 clics dans Site
