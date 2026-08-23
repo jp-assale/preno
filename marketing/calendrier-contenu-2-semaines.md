@@ -11,15 +11,15 @@ Chaque post : format court, 1 idée, 1 CTA (appel à l'action). Adapte le "je/tu
 ## Semaine 1 — Poser le problème et la crédibilité
 
 **Jour 1 — Post de lancement**
-> Je viens de lancer Repondo : des agents IA qui répondent à la place des commerçants et artisans qui
+> Je viens de lancer Preno : des agents IA qui répondent à la place des commerçants et artisans qui
 > n'ont pas le temps de décrocher entre deux clients. Prise de RDV, qualification de la demande, réponse
 > aux questions fréquentes — 24h/24. Les 5 premiers commerces qui me contactent ont une démo gratuite de
-> 15 minutes. 👉 [lien repondo.com]
+> 15 minutes. 👉 [lien preno.netlify.app]
 
 **Jour 3 — Le problème concret (chiffre/anecdote)**
 > Un appel manqué chez un artisan, c'est un client qui rappelle le concurrent d'après dans les 5 minutes.
 > Un agent IA ne rate jamais un appel, même le soir ou le week-end. C'est le problème que je résous avec
-> Repondo.
+> Preno.
 
 **Jour 5 — Démo vidéo ou capture d'écran**
 > Voici à quoi ressemble une conversation avec l'agent, en vrai (capture d'écran ou courte vidéo de la

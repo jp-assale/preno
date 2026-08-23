@@ -1,7 +1,10 @@
-# Agent IA pour commerces locaux — plan de lancement
+# Preno — agent IA pour commerces locaux — plan de lancement
 
-Offre : agents IA (prise de RDV, SAV, qualification de leads) pour petits commerces locaux
-(salons, artisans, cabinets, restaurants). Revenu = installation ponctuelle + maintenance mensuelle récurrente.
+Nom de marque : **Preno**. Offre : agents IA (prise de RDV, SAV, qualification de leads) pour petits
+commerces locaux (salons, artisans, cabinets, restaurants). Revenu = installation ponctuelle + maintenance
+mensuelle récurrente.
+
+**Site en ligne : https://preno.netlify.app**
 
 ## Ce qui existe déjà dans ce dossier
 
@@ -17,25 +20,32 @@ Offre : agents IA (prise de RDV, SAV, qualification de leads) pour petits commer
   comme modèle) et un bouton correspondant dans `#nicheTabs` de `index.html`. Coût : quelques minutes, pas
   une reconstruction.
 
-## Mettre le site en ligne (obtenir un vrai lien à envoyer)
+## Le site est en ligne
 
-Le dossier est déjà un dépôt git avec un premier commit prêt. Deux options, de la plus rapide à la plus durable :
+**Statut (2026-08-23) : déployé sur Netlify Drop, site réclamé (claim) sous le nom `preno` → https://preno.netlify.app**
 
-### Option A — Netlify Drop (le plus rapide, aucun compte requis pour un premier lien)
+Décision : démarrage avec le sous-domaine gratuit Netlify. Un vrai domaine (`preno.com`/`preno.fr`,
+vérifiés disponibles au moment du choix du nom) sera acheté plus tard, une fois l'activité prend de
+l'ampleur (premiers clients signés). Ne pas acheter le domaine avant que ce soit décidé explicitement.
 
-1. Aller sur https://app.netlify.com/drop
-2. Glisser-déposer ce dossier entier (`agence-agents-ia`) dans la zone de dépôt
-3. Un lien public est généré immédiatement (ex : `random-name-123.netlify.app`)
-4. Pour garder ce lien de façon permanente (sinon le site peut être supprimé après un moment) : créer un
-   compte Netlify gratuit et cliquer sur "Claim this site" — c'est à faire toi-même, je ne peux pas créer
-   de compte à ta place.
+Le dossier est aussi un dépôt git avec un historique de commits. Pour mettre à jour le site en ligne après
+une modification locale : refaire un glisser-déposer du dossier entier sur https://app.netlify.com/drop
+en étant connecté au même compte Netlify (le nom de site `preno` sera proposé à nouveau automatiquement).
 
-Suffisant pour commencer à démarcher dès aujourd'hui.
+### Passer en déploiement continu plus tard (optionnel, plus confortable)
 
-**Décision actuelle (2026-08-23)** : démarrage avec le sous-domaine gratuit Netlify (`*.netlify.app`).
-Le domaine `repondo.com`/`repondo.fr` a été identifié et vérifié disponible, mais l'achat est volontairement
-repoussé à plus tard, une fois l'activité prend de l'ampleur (premiers clients signés). Ne pas acheter le
-domaine avant que ce soit décidé explicitement.
+1. Créer un dépôt sur https://github.com/new (toi-même, avec ton compte)
+2. Dans ce dossier, lier et pousser le dépôt local :
+   ```bash
+   git remote add origin <URL_DE_TON_DEPOT_GITHUB>
+   git branch -M main
+   git push -u origin main
+   ```
+3. Dans les paramètres du site `preno` sur Netlify, choisir "Link repository" / connecter ce dépôt GitHub.
+   Aucune configuration de build nécessaire (site 100% statique, déjà pris en charge par `netlify.toml`).
+4. Chaque futur `git push` republie le site automatiquement — plus besoin de glisser-déposer à la main.
+5. Le jour où le domaine `preno.com`/`preno.fr` est acheté, il se branche en 2 clics dans Site
+   configuration → Domain management, sans redéployer.
 
 ### Option B — GitHub + déploiement continu (plus durable, se met à jour tout seul)
 

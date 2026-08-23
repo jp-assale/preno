@@ -1,11 +1,11 @@
-# Fiche Google Business Profile — Repondo
+# Fiche Google Business Profile — Preno
 
 À créer sur https://business.google.com (gratuit, compte Google requis — à faire toi-même).
 Copie-colle directement les champs ci-dessous.
 
 ## Informations de base
 
-- **Nom de l'établissement** : Repondo
+- **Nom de l'établissement** : Preno
 - **Type de profil** : Entreprise de service (pas de boutique physique, tu coches "Je livre des biens et
   services à mes clients" / "Service area business")
 - **Zone desservie** : ta ville + un rayon de 30-40 km autour (ajuste selon où tu comptes démarcher en premier)
@@ -13,12 +13,12 @@ Copie-colle directement les champs ci-dessous.
   est plus proche selon ce que propose l'interface Google chez toi)
 - **Catégories secondaires** : Développeur de logiciels, Service d'automatisation, Agence de conseil
 - **Téléphone** : ton numéro pro (ou un numéro dédié si tu en crées un — recommandé, plus crédible)
-- **Site web** : https://repondo.com
+- **Site web** : https://preno.netlify.app (à remplacer par un vrai domaine plus tard)
 
 ## Description courte (750 caractères max)
 
 ```
-Repondo installe des agents IA qui répondent à vos clients 24/7 : prise de rendez-vous, qualification
+Preno installe des agents IA qui répondent à vos clients 24/7 : prise de rendez-vous, qualification
 des demandes, réponses aux questions fréquentes. Pensé pour les salons, cabinets, restaurants et artisans
 qui ne veulent plus rater un appel. Installation en quelques jours, sans compétence technique requise de
 votre côté. Démo gratuite de 15 minutes sur simple demande.
@@ -48,7 +48,7 @@ R : Oui, l'agent se connecte à Google Calendar, Calendly, ou la plupart des log
 ## Premier post Google (à publier dès la création de la fiche)
 
 ```
-🚀 Repondo est en ligne ! Un agent IA qui répond à vos clients 24h/24 et prend les rendez-vous à votre
+🚀 Preno est en ligne ! Un agent IA qui répond à vos clients 24h/24 et prend les rendez-vous à votre
 place — pour les salons, cabinets, restaurants et artisans. Démo gratuite de 15 min, sans engagement.
 👉 Contactez-nous pour en discuter.
 ```

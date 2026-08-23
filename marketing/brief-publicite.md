@@ -31,7 +31,7 @@ identifier quel angle et quelle niche convertit le mieux avant de scaler.
 
 1. **Angle douleur** : "Combien d'appels manqués cette semaine ? Un agent IA répond à votre place, 24h/24."
 2. **Angle preuve sociale** (à activer seulement une fois qu'un client existe) : "[Nom du client] ne rate
-   plus un rendez-vous depuis qu'il utilise Repondo. Voici comment."
+   plus un rendez-vous depuis qu'il utilise Preno. Voici comment."
 3. **Angle simplicité** : "Installé en quelques jours, sans compétence technique. Démo gratuite en 15 min."
 
 ## Canal secondaire, plus tard : Google Ads (recherche)
