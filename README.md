@@ -4,7 +4,12 @@ Nom de marque : **Preno**. Offre : agents IA (prise de RDV, SAV, qualification d
 commerces locaux (salons, artisans, cabinets, restaurants). Revenu = installation ponctuelle + maintenance
 mensuelle récurrente.
 
+**Marché cible : Bamako, Mali.** Tarifs en FCFA (pas en euros — le budget de démarrage plus bas reste en
+euros car les outils/API sont facturés à l'international, mais l'offre commerciale doit être en FCFA).
+
 **Site en ligne : https://preno.netlify.app**
+
+**Téléphone de contact : +223 70 44 75 82**
 
 ## Ce qui existe déjà dans ce dossier
 
@@ -80,7 +85,7 @@ branché sur :
 | n8n (self-host sur petit VPS) | ~5-10 €/mois | Alternative : n8n Cloud ~20-50 €/mois si tu ne veux pas gérer de serveur |
 | API modèle de langage (Claude/GPT) | ~10-30 €/mois au début | Facturé à l'usage, monte avec le nombre de clients actifs |
 | WhatsApp Business API / Twilio | ~15-25 €/mois | Nécessaire si tu vends le canal WhatsApp/SMS (très demandé par les artisans) |
-| Nom de domaine pour ce site | ~10-15 €/an | ex : tonagence.fr — plus crédible qu'un lien localhost pour démarcher |
+| Nom de domaine pour ce site | ~10-15 €/an | ex : preno.com — plus crédible qu'un sous-domaine gratuit une fois l'activité lancée |
 | Hébergement du site vitrine | Gratuit (Netlify/Vercel/GitHub Pages) | Le site est 100% statique, aucun serveur nécessaire |
 
 Total pour démarrer : **environ 50-100 €** le premier mois, avant le premier client signé.

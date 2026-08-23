@@ -8,11 +8,17 @@ Copie-colle directement les champs ci-dessous.
 - **Nom de l'établissement** : Preno
 - **Type de profil** : Entreprise de service (pas de boutique physique, tu coches "Je livre des biens et
   services à mes clients" / "Service area business")
-- **Zone desservie** : ta ville + un rayon de 30-40 km autour (ajuste selon où tu comptes démarcher en premier)
-- **Catégorie principale** : Service informatique (ou "Agence de conseil en marketing" si cette catégorie
-  est plus proche selon ce que propose l'interface Google chez toi)
-- **Catégories secondaires** : Développeur de logiciels, Service d'automatisation, Agence de conseil
-- **Téléphone** : ton numéro pro (ou un numéro dédié si tu en crées un — recommandé, plus crédible)
+- **Zone desservie** : Bamako, Mali (+ ajuster le rayon selon jusqu'où tu comptes démarcher)
+- **Catégorie principale** : Google n'a pas de liste fixe publiée — les catégories n'apparaissent qu'en
+  tapant dans le champ de recherche de leur interface (autocomplétion). Tape ces mots-clés et choisis la
+  suggestion la plus proche parmi celles qui apparaissent réellement chez toi :
+  - "conseil informatique" → souvent "Consultant en informatique" ou "Société de conseil en informatique"
+  - "automatisation" → parfois "Service d'automatisation" apparaît selon les régions
+  - Si rien de spécifique n'apparaît, "Agence de conseil en marketing" ou "Consultant en gestion
+    d'entreprise" sont des catégories génériques qui existent presque toujours et restent pertinentes
+- **Catégories secondaires** : tape "logiciel", "intelligence artificielle", "conseil" dans le même champ
+  et ajoute ce qui correspond le mieux parmi les suggestions
+- **Téléphone** : +223 70 44 75 82
 - **Site web** : https://preno.netlify.app (à remplacer par un vrai domaine plus tard)
 
 ## Description courte (750 caractères max)
@@ -35,8 +41,8 @@ votre côté. Démo gratuite de 15 minutes sur simple demande.
 ## Questions-réponses à pré-remplir (les gens posent souvent les mêmes questions)
 
 **Q : Combien coûte l'installation d'un agent IA ?**
-R : L'installation démarre à 500€ selon la complexité, avec une maintenance mensuelle à partir de 200€/mois.
-Contactez-nous pour un devis adapté à votre activité.
+R : L'installation coûte entre 25 000 et 50 000 FCFA selon la complexité. Contactez-nous pour un devis
+adapté à votre activité.
 
 **Q : Faut-il des compétences techniques pour l'utiliser ?**
 R : Non. L'agent est installé, testé et ajusté par nos soins. Vous recevez simplement les rendez-vous
