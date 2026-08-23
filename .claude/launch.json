@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "agence-agents-ia",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "5174", "--directory", "C:\\Users\\jp.assale\\Desktop\\Claude\\agence-agents-ia"],
+      "port": 5174
+    }
+  ]
+}

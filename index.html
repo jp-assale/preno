@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agent IA — Prise de RDV automatique pour commerces locaux</title>
+<meta name="description" content="Un agent IA qui répond à vos clients 24/7, prend les rendez-vous et qualifie les demandes à votre place. Installation en quelques jours.">
+<meta name="theme-color" content="#0f172a">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">A+</span>
+      <span class="brand-name">Agent&nbsp;IA</span>
+    </a>
+    <nav class="topnav" aria-label="Navigation principale">
+      <a href="#probleme">Le problème</a>
+      <a href="#demo">Démo</a>
+      <a href="#offre">Offre &amp; tarifs</a>
+      <a href="#contact" class="nav-cta">Réserver un appel</a>
+    </nav>
+    <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Changer de thème">◐</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Pour salons, artisans, cabinets, restaurants</p>
+      <h1>Pendant que vous travaillez, un agent IA répond au téléphone et prend les rendez-vous à votre place.</h1>
+      <p class="lede">Installé en quelques jours. Disponible 24/7. Ne rate plus jamais un client parce que la ligne était occupée.</p>
+      <div class="hero-actions">
+        <a href="#demo" class="btn btn-primary">Voir la démo en direct</a>
+        <a href="#offre" class="btn btn-ghost">Voir les tarifs</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="probleme">
+    <h2>Le problème que ça résout</h2>
+    <div class="grid-3">
+      <div class="card">
+        <span class="card-icon">☎</span>
+        <h3>Appels manqués = clients perdus</h3>
+        <p>Un client qui tombe sur le répondeur appelle le concurrent d'après. Chaque appel manqué a un coût direct.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🕘</span>
+        <h3>Vous n'êtes pas disponible 24/7</h3>
+        <p>Le soir, le week-end, pendant un rendez-vous en cours — l'agent IA, lui, répond tout le temps.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">⏱</span>
+        <h3>Du temps perdu en tâches répétitives</h3>
+        <p>90% des demandes sont les mêmes questions : horaires, disponibilités, tarifs. L'agent les traite seul.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="demo">
+    <h2>Démo en direct</h2>
+    <p class="section-lede">Même moteur, un script adapté par métier. Choisissez un secteur et testez — tapez comme le ferait un vrai client.</p>
+
+    <div class="niche-tabs" id="nicheTabs" role="tablist" aria-label="Choisir un secteur">
+      <button class="niche-tab is-active" data-niche="salon" type="button">Salon de coiffure</button>
+      <button class="niche-tab" data-niche="restaurant" type="button">Restaurant</button>
+      <button class="niche-tab" data-niche="cabinet" type="button">Cabinet médical</button>
+      <button class="niche-tab" data-niche="artisan" type="button">Artisan (plombier…)</button>
+    </div>
+
+    <div class="demo-wrap">
+      <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+          <span class="chat-dot"></span>
+          <div>
+            <strong id="chatBizName">Salon Belle Étoile</strong>
+            <span class="chat-sub">Agent IA · en ligne</span>
+          </div>
+        </div>
+        <div class="chat-body" id="chatBody"></div>
+        <form class="chat-input" id="chatForm">
+          <input type="text" id="chatInput" placeholder="Écrivez votre message…" autocomplete="off">
+          <button type="submit" aria-label="Envoyer">➤</button>
+        </form>
+      </div>
+      <div class="demo-notes">
+        <h3>Ce que fait vraiment cet agent</h3>
+        <ul id="demoNotesList">
+          <li>Comprend la demande en langage naturel (jour, service, créneau)</li>
+          <li>Propose des créneaux disponibles et confirme le rendez-vous</li>
+          <li>Récupère nom et téléphone pour la fiche client</li>
+          <li>En production : connecté à votre agenda réel (Google Calendar, Calendly, logiciel métier) et à WhatsApp / SMS / site web</li>
+        </ul>
+        <p class="demo-disclaimer">Cette démo tourne en local dans votre navigateur avec une logique simplifiée, pour montrer l'expérience. La version livrée à un client utilise un vrai modèle de langage connecté à son agenda et ses données.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="offre">
+    <h2>Offre &amp; tarifs</h2>
+    <div class="grid-3">
+      <div class="card price-card">
+        <h3>Installation</h3>
+        <p class="price">500 – 1 500 €</p>
+        <p>Selon la complexité : script de conversation, connexion à l'agenda, canal (site, WhatsApp, SMS), tests avec vous.</p>
+      </div>
+      <div class="card price-card featured">
+        <span class="badge">Le plus courant</span>
+        <h3>Maintenance mensuelle</h3>
+        <p class="price">200 – 500 €<span>/mois</span></p>
+        <p>Suivi, ajustements du script, ajout de nouveaux cas, support. C'est ce qui transforme un projet ponctuel en revenu récurrent.</p>
+      </div>
+      <div class="card price-card">
+        <h3>Pack croissance</h3>
+        <p class="price">1 000 – 3 500 €</p>
+        <p>Plusieurs automatisations connectées : agent + relance clients + rapports automatiques envoyés chaque semaine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="cta-block">
+      <h2>Envie de voir cet agent installé pour votre commerce ?</h2>
+      <p>Un premier échange de 15 minutes suffit pour évaluer ce qui est possible chez vous.</p>
+      <a href="mailto:assale_assale@yahoo.fr?subject=Agent%20IA%20pour%20mon%20commerce" class="btn btn-primary">Écrire un email</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Agent IA — prototype de présentation commerciale. Aucune donnée saisie dans la démo n'est envoyée ni conservée.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
