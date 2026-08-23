@@ -2,11 +2,11 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const moduleDir = path.dirname(fileURLToPath(import.meta.url));
 
 function loadClientConfig(clientId) {
   const safeId = (clientId || '_template').replace(/[^a-zA-Z0-9_-]/g, '');
-  const filePath = path.join(__dirname, '..', '..', 'clients', `${safeId}.json`);
+  const filePath = path.join(moduleDir, '..', '..', 'clients', `${safeId}.json`);
   const raw = readFileSync(filePath, 'utf-8');
   return JSON.parse(raw);
 }
