@@ -99,9 +99,42 @@ Total pour démarrer : **environ 50-100 €** le premier mois, avant le premier 
 4. **Semaine 4** — Signer et livrer ce premier client sur l'offre installation + maintenance. Documenter
    le processus pour le répéter plus vite avec le client suivant, y compris dans une autre niche.
 
+## Trouver 15-20 prospects à Bamako
+
+Méthode simple sans outil payant : sur Google Maps, recherche par catégorie + "Bamako" (ex : "salon de
+coiffure Bamako", "restaurant Bamako", "cabinet dentaire Bamako", "plombier Bamako", "électricien Bamako").
+Pour chaque résultat pertinent, note : nom du commerce, quartier, numéro de téléphone (souvent aussi le
+numéro WhatsApp), et s'il y a un compte Facebook/Instagram actif. Vise un mélange des 4 secteurs déjà
+couverts par la démo plutôt que de tout miser sur un seul, pour voir lequel répond le mieux (voir semaine 2
+du plan plus haut). Une feuille de calcul simple (nom, secteur, téléphone, statut du contact, date de
+relance) suffit pour suivre l'avancement.
+
 ## Scripts de prospection
 
-### Email à froid
+**Canal principal recommandé : WhatsApp**, pas l'email — c'est là que les commerçants à Bamako sont le
+plus facilement joignables et réactifs. Utilise le numéro relevé sur Google Maps ou la fiche
+Facebook/Instagram du commerce.
+
+### Message WhatsApp (premier contact)
+```
+Bonjour, je m'appelle [Ton prénom]. Je remarque que [Nom du commerce] doit recevoir beaucoup d'appels
+pour des demandes de rendez-vous. Je mets en place des agents IA qui répondent 24/7 à la place du
+téléphone : ils comprennent la demande, proposent des créneaux et prennent le rendez-vous directement
+dans l'agenda — même le soir ou le week-end.
+
+J'ai une courte démo à vous montrer (2 minutes), sans engagement : [lien preno.netlify.app]
+
+Ça vous intéresse d'en discuter ?
+```
+
+### Relance WhatsApp (si pas de réponse après 3-4 jours)
+```
+Bonjour [Prénom], je me permets de relancer mon message d'il y a quelques jours au sujet de l'agent IA
+pour [Nom du commerce]. Si ce n'est pas le bon moment, aucun souci, dites-le-moi simplement. Sinon la
+démo prend 2 minutes : [lien preno.netlify.app]
+```
+
+### Email à froid (si l'email est plus adapté pour ce contact)
 ```
 Objet : Un agent qui répond au téléphone pour [Nom du commerce]
 
@@ -115,22 +148,6 @@ sur un répondeur.
 J'ai une démo de 2 minutes à vous montrer, sans engagement. Un créneau de 15 min cette semaine ?
 
 [Ton prénom]
-```
-
-### Message court (Instagram/LinkedIn/DM)
-```
-Bonjour [Prénom], j'aide les [type de commerce] à ne plus rater d'appels grâce à un agent IA qui prend
-les rendez-vous à leur place, même le soir et le week-end. Je peux vous montrer une démo de 2 min si ça
-vous intéresse ?
-```
-
-### Relance (si pas de réponse après 4-5 jours)
-```
-Objet : Petite relance — agent IA pour [Nom du commerce]
-
-Bonjour [Prénom], je me permets de relancer mon message d'il y a quelques jours. Si ce n'est pas le bon
-moment, aucun souci — dites-moi simplement et je ne vous solliciterai plus. Sinon, la démo prend 2 minutes :
-[lien vers le site].
 ```
 
 ## Prochaine étape technique concrète
