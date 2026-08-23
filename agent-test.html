@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Preno — Test agent réel (interne)</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">P</span>
+      <span class="brand-name">Preno</span>
+    </a>
+    <nav class="topnav" aria-label="Navigation principale">
+      <a href="index.html">← Retour au site</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section" style="max-width:640px;">
+    <h2>Page de test interne — agent réel</h2>
+    <p class="section-lede" style="text-align:left;">
+      Cette page n'est pas destinée aux prospects (pas de lien depuis le site public). Elle appelle la
+      vraie fonction <code>/.netlify/functions/chat</code>, connectée à l'API Claude, pour tester un client
+      dont la config existe dans <code>clients/&lt;id&gt;.json</code>. Tant que <code>ANTHROPIC_API_KEY</code>
+      n'est pas configurée dans Netlify (Site configuration → Environment variables), cette page affichera
+      une erreur — c'est normal.
+    </p>
+
+    <div style="margin-bottom:16px;">
+      <label for="clientIdInput" style="display:block; font-size:14px; margin-bottom:4px;">Client à tester (nom de fichier dans /clients, sans .json) :</label>
+      <input type="text" id="clientIdInput" value="_template" style="width:100%; padding:8px 12px; border:1px solid var(--border); border-radius:8px; background:var(--surface); color:var(--text);">
+    </div>
+
+    <div class="chat-window" id="chatWindow" style="height:420px;">
+      <div class="chat-header">
+        <span class="chat-dot"></span>
+        <div>
+          <strong id="chatBizName">Agent réel</strong>
+          <span class="chat-sub">Connecté à l'API Claude</span>
+        </div>
+      </div>
+      <div class="chat-body" id="chatBody"></div>
+      <form class="chat-input" id="chatForm">
+        <input type="text" id="chatInput" placeholder="Écrivez votre message…" autocomplete="off">
+        <button type="submit" aria-label="Envoyer">➤</button>
+      </form>
+    </div>
+    <p id="statusLine" style="font-size:13px; margin-top:8px;"></p>
+  </section>
+</main>
+
+<script src="js/agent-test.js"></script>
+</body>
+</html>

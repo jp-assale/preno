@@ -150,8 +150,30 @@ J'ai une démo de 2 minutes à vous montrer, sans engagement. Un créneau de 15 
 [Ton prénom]
 ```
 
-## Prochaine étape technique concrète
+## L'agent réel (au-delà de la démo scriptée)
 
-Le prochain vrai palier de travail (à faire quand tu es prêt) : brancher un premier agent réel sur n8n +
-API Claude + Google Calendar pour ta niche choisie, au lieu de la version scriptée de démo. Dis-le moi
-et on le construit ensemble.
+Statut (2026-08-23) : la base technique est construite, en attente d'un vrai client et d'une clé API pour
+être pleinement activée.
+
+- `netlify/functions/chat.mjs` — fonction serveur qui appelle réellement l'API Claude (plus de logique
+  scriptée par mots-clés). Elle charge la config d'un client depuis `clients/<id>.json`, construit un
+  prompt système adapté au type de commerce (rendez-vous sur créneau, réservation, ou qualification +
+  rappel), et détecte quand une réservation est complète.
+- `clients/_template.json` — modèle de config client, à dupliquer et remplir à partir des infos recueillies
+  avec [process/onboarding-client.md](process/onboarding-client.md) pour chaque nouveau client.
+- `agent-test.html` — page de test interne (pas liée depuis le site public) pour discuter avec l'agent réel
+  d'un client donné, à l'adresse `/agent-test.html` une fois déployé.
+
+### Ce qu'il manque pour que ça fonctionne réellement
+
+1. **Un compte API Anthropic** (console.anthropic.com) — à créer par toi-même (identité + moyen de
+   paiement, je ne peux pas le faire à ta place). Une fois la clé obtenue, l'ajouter dans Netlify :
+   Site configuration → Environment variables → nouvelle variable `ANTHROPIC_API_KEY`.
+2. **Une vraie config client** : dupliquer `clients/_template.json` en `clients/<nom-du-client>.json`,
+   remplir avec les infos de sa fiche d'onboarding.
+3. **Notification de réservation réelle** : pour l'instant, une réservation complétée est seulement
+   loguée (visible dans Netlify → onglet Functions). À remplacer par un vrai envoi (WhatsApp, email, ou
+   écriture dans un agenda) une fois le canal du premier client choisi — voir le `TODO` dans
+   `notifyBooking()` de `chat.mjs`.
+4. **Le canal final** (WhatsApp Business, widget web, SMS) — la fonction `chat.mjs` est déjà indépendante
+   du canal, n'importe lequel peut l'appeler une fois branché.

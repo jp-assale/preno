@@ -1,0 +1,22 @@
+{
+  "clientId": "_template",
+  "businessName": "Nom du commerce",
+  "niche": "item-booking",
+  "hours": {
+    "lundi": "09h00-18h00",
+    "mardi": "09h00-18h00",
+    "mercredi": "09h00-18h00",
+    "jeudi": "09h00-18h00",
+    "vendredi": "09h00-18h00",
+    "samedi": "09h00-13h00",
+    "dimanche": "fermé"
+  },
+  "services": [
+    { "name": "Exemple de service", "duration": "30 min", "price": "0 FCFA" }
+  ],
+  "urgencyCriteria": "À remplir uniquement si niche = quote-callback (ex : véhicule immobilisé, panne totale)",
+  "faq": [
+    { "q": "Question fréquente exemple ?", "a": "Réponse exemple." }
+  ],
+  "notes": "Toute information utile supplémentaire tirée de la fiche d'onboarding (process/onboarding-client.md)."
+}
